@@ -19,6 +19,4 @@ if(!isAuthenticated){
     if(["dashboared","/profile"].includes(request.nextUrl.pathname))
         return NextResponse.redirect(new URL("/login",request.url))
 }
-
-
 }
