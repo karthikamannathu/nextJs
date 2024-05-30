@@ -10,7 +10,6 @@ if(isAuthenticated){
   return  NextResponse.redirect(new URL ("/dashboared",request.url))
 }
 
-
 if(isAuthenticated!){
     return NextResponse.next()
 }
